@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-//
+// hello
 namespace Training.Plugins
 {
     public class GenerateAutoNumber : IPlugin
