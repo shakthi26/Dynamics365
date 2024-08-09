@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Training.Plugins
 {
-    internal class FollowUpTaskForAccount : IPlugin
+    public class FollowUpTaskForAccount : IPlugin
     {
         public void Execute(IServiceProvider serviceProvider)
         {
