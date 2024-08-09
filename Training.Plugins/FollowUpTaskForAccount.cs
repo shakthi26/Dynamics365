@@ -16,8 +16,7 @@ namespace Training.Plugins
             ITracingService tracingService = (ITracingService)serviceProvider.GetService(typeof(ITracingService));
 
             // Obtain the execution context from the service provider.
-            IPluginExecutionContext context = (IPluginExecutionContext)
-                                                  serviceProvider.GetService(typeof(IPluginExecutionContext));
+            IPluginExecutionContext context = (IPluginExecutionContext)serviceProvider.GetService(typeof(IPluginExecutionContext));
 
             // The InputParameters collection contains all the data passed in the message request.
             if (context.InputParameters.Contains("Target") && context.InputParameters["Target"] is Entity)
